@@ -2,9 +2,19 @@
   "name": "@decaid/web3",
   "type": "module",
   "version": "0.0.1",
+  "description": "Decaid opens the web3 doors for all developers! You can create your web3 project easily!",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": ["dist/"],
+  "keywords": [
+    "Decaid",
+    "web3",
+    "Javascript web3",
+    "NFT API",
+    "Blockchain API",
+    "Metamask"
+  ],
   "scripts": {
     "clean": "rm -rf dist/*",
     "build": "tsc -p tsconfig.build-esm.json",
