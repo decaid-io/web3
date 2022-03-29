@@ -1,6 +1,6 @@
 const DEFAULTS = {
   // decaid api url
-  API_URL: 'http://localhost:8080',
+  API_URL: 'https://api.decaid.io',
   // decaid api version
   API_VERSION: 'v1'
 }
