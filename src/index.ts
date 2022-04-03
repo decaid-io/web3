@@ -22,7 +22,8 @@ export default class Decaid extends Web3 {
     const limitStr = limit === undefined ? `` : `&limit=${limit}`
     const offsetStr = offset === undefined ? `` : `&offset=${offset}`
     const paramStr = param === undefined ? `` : param
-    return `${URLs.DEFAULTS.API_URL}/${URLs.DEFAULTS.API_VERSION}/${endpoint}?chain=${this.options.chain}${limitStr}${offsetStr}${paramStr}`
+    const defaultURI = this.options.apiURL || URLs.DEFAULTS.API_URL
+    return `${defaultURI}/${URLs.DEFAULTS.API_VERSION}/${endpoint}?chain=${this.options.chain}${limitStr}${offsetStr}${paramStr}`
   }
 
   async getBlock (blockNumber: number): Promise<any> {
