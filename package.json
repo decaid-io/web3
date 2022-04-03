@@ -1,7 +1,7 @@
 {
   "name": "@decaid/web3",
   "type": "module",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Decaid opens the web3 doors for all developers! You can create your web3 project easily!",
   "license": "MIT",
   "repository": {
